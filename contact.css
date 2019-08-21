@@ -1,0 +1,89 @@
+contact.css
+
+
+body{
+    margin: 0;
+
+}
+
+h1 {
+    margin:50;
+    color: whitesmoke;
+    padding: 100px;
+    text-align: center;
+    justify-content: center;
+    border: 2px;
+    font-family: countryside;
+    font-size: 7vw;
+
+}
+
+
+.imagewrapper{
+    width: 100%;
+    height: 100vh;
+    background-image: url("background6.JPG");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+li {
+    float: left;
+
+  }
+  
+  li a {
+   display: block;
+    color:rgb(24, 202, 214);
+    padding: 16px;
+    font-size: 1.5vw;
+    font-family: countryside;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  li a:hover {
+    background-color: #ca29b5;
+    color: white;
+  }
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 50%; /* Full width */
+    padding: 3px; /* Some padding */  
+    border-radius: 2px; /* Rounded borders */
+    margin-top: 2px; /* Add a top margin */
+    margin-bottom: 4px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: rgb(24, 202, 214);
+    color: white;
+    padding: 3px 5px;
+    border: black;
+    border-radius: 2px;
+    cursor: pointer;
+    display: block;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #ca29b5;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 2px;
+    padding: 5px;
+    margin: 0 auto;
+    width: 150%;
+  }
